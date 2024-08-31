@@ -1,0 +1,65 @@
+.icon404 {
+  border-radius: 50%;
+  width: 20vb;
+  height: 20vb;
+  background: url("../images/404.jpg") no-repeat center;
+  background-size: 20vb;
+  position: relative;
+  transition: all 0.2s ease-out;
+  left: 10vb;
+  top: 2vb;
+}
+
+body,
+html {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon404:hover,
+.icon404:focus {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+* {
+  color: white;
+}
+
+.content {
+  position: relative;
+  left: 10vb;
+  top: 1.5vb;
+}
+
+.content span h3{
+  position: relative;
+  left: 2.8vb;
+  font-size: 2vb;
+  background-color: yellow;
+  color: black;
+  width: 14.5vb;
+  border-radius: 5px;
+}
+
+.content h1 {
+  position: relative;
+  top: -3vb;
+  left: -5vb;
+  font-size: 6vb;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 41vb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+a {
+  display: inline-block;
+}

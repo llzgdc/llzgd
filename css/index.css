@@ -1,0 +1,147 @@
+.icona {
+  border-radius: 50%;
+  width: 14vb;
+  height: 14vb;
+  background: url("../images/a.jpg") no-repeat center;
+  background-size: 14vb;
+  position: relative;
+  transition: all 0.2s ease-out;
+}
+
+.icona:hover,
+.icona:focus {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.bilibili {
+  border-radius: 20px;
+  width: 10vb;
+  height: 10vb;
+  background: url("../images/bilibili.svg") no-repeat center;
+  background-size: 10vb;
+  position: relative;
+  transition: all 0.2s ease-out;
+  left: 2vb;
+  top: 0.5vb;
+}
+
+.bilibili:hover,
+.bilibili:focus {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.qq {
+  border-radius: 20px;
+  width: 10vb;
+  height: 10vb;
+  background: url("../images/qq.svg") no-repeat center;
+  background-size: 8vb;
+  position: relative;
+  transition: all 0.2s ease-out;
+  left: 4.5vb;
+  top: 0.1vb;
+}
+
+.qq:hover,
+.qq:focus {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.github {
+  border-radius: 20px;
+  width: 10vb;
+  height: 10vb;
+  background: url("../images/github.svg") no-repeat center;
+  background-size: 10vb;
+  position: relative;
+  transition: all 0.2s ease-out;
+  left: 7vb;
+  top: 0.3vb;
+}
+
+.github:hover,
+.github:focus {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  height: 18vb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  display: inline-block;
+}
+
+.a {
+  position: absolute;
+  top: 2vb;
+  left: 15vb;
+  display: inline-block;
+  background-color: white;
+  width: 40vb;
+  border-radius: 20px;
+}
+
+.icon_box {
+  position: absolute;
+  top: 2vb;
+  left: 65vb;
+  display: inline-block;
+}
+
+.posts_box {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 100vb;
+  border-radius: 50px;
+  top: 25vb;
+  left: 35vb;
+}
+
+.post {
+  position: absolute;
+  background-color: rgb(22, 22, 22);
+  width: 95%;
+  height: 18%;
+  top: 2vb;
+  left: 3vb;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+}
+
+.post:hover,
+.post:focus {
+  font-size: 2vb;
+  color: black;
+  transition: 0.3s;
+}
+
+.post:hover {
+  border-style: solid;
+  border-width: 0.5vb;
+  border-color: chartreuse;
+}
+
+.title h1 {
+  color: whitesmoke;
+  position: relative;
+  left: 2vb;
+  transition: all 0.2s ease-out;
+  display: inline-block;
+}
+
+.content p {
+  color: whitesmoke;
+  position: relative;
+  left: 2vb;
+  transition: all 0.2s ease-out;
+  display: inline-block;
+}

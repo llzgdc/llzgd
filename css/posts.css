@@ -1,0 +1,45 @@
+.back {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-out;
+}
+
+.back:hover {
+  transform: scale(1.2);
+  font-size: 55px;
+}
+
+a {
+  color: orange;
+}
+
+.a {
+  width: 65%;
+  height: auto !important;
+  background-color: rgba(0, 0, 0, 0.788);
+  border-radius: 10px;
+  position: absolute;
+  left: 18%;
+  top: 3%;
+  padding: 10px;
+  display: inline-block;
+}
+
+*{
+  color: white;
+}
+
+section h1 {
+  font-size: 36px;
+}
