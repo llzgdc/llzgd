@@ -22,7 +22,7 @@
   background-size: 10vb;
   position: relative;
   transition: all 0.2s ease-out;
-  left: 2vb;
+  left: -3vb;
   top: 0.5vb;
 }
 
@@ -40,7 +40,7 @@
   background-size: 8vb;
   position: relative;
   transition: all 0.2s ease-out;
-  left: 4.5vb;
+  left: -0.5vb;
   top: 0.1vb;
 }
 
@@ -58,7 +58,7 @@
   background-size: 10vb;
   position: relative;
   transition: all 0.2s ease-out;
-  left: 7vb;
+  left: 2vb;
   top: 0.3vb;
 }
 
@@ -133,7 +133,7 @@ a {
 .title h1 {
   color: whitesmoke;
   position: relative;
-  left: 2vb;
+  left: -40vb;
   transition: all 0.2s ease-out;
   display: inline-block;
 }
@@ -141,7 +141,8 @@ a {
 .content p {
   color: whitesmoke;
   position: relative;
-  left: 2vb;
+  top: -2vb;
+  left: -45.5vb;
   transition: all 0.2s ease-out;
   display: inline-block;
 }
