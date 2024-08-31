@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>llzgd</title>
     <link rel="icon" href="images/a.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <div class="header">
       <div class="icon_box">
         <a href="https://llzgdc.github.io/llzgd/"><div class="icona"></div></a>
@@ -38,4 +42,10 @@
       </a>
     </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 </html>
